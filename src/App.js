@@ -1,24 +1,23 @@
 // import logo from "./logo.svg";
-import "./App.css";
+import "./style.css";
 import About from "./Components/About";
 import Home from "./Components/Home";
 import Navbar from "./Components/Nav/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Landing_Page from "./Components/Home/LandingPage";
+import Project from "./Components/Projects/Project";
 
 function App() {
   return (
-    // <Router>
-    //   <Navbar />
-    //   <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/" element={<About />} />
-    //   </Routes>
-    // </Router>
-    <div>
-      <Navbar></Navbar>
-      <Home></Home>
-      <About></About>
-    </div>
+    <Router>
+      <Navbar />
+      <div className="page-content">
+        <Routes>
+          {/* <Route path="/" element={<Landing_Page />} /> */}
+          <Route path="/" element={<Project />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
