@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/hd_portfolio/static/css/main.0afaf53e.css",
-    "main.js": "/hd_portfolio/static/js/main.bca2f319.js",
+    "main.css": "/hd_portfolio/static/css/main.e3537517.css",
+    "main.js": "/hd_portfolio/static/js/main.9de5be9f.js",
     "static/js/453.81fa3bb7.chunk.js": "/hd_portfolio/static/js/453.81fa3bb7.chunk.js",
+    "static/media/netflix.png": "/hd_portfolio/static/media/netflix.c89667bf9c41d0adeed5.png",
+    "static/media/webpage.png": "/hd_portfolio/static/media/webpage.3708babebb32fcb19906.png",
+    "static/media/amazon.png": "/hd_portfolio/static/media/amazon.c7d8b38da104bf561ce7.png",
+    "static/media/Fetch.png": "/hd_portfolio/static/media/Fetch.9350357c71b0a9746a65.png",
+    "static/media/hd.jpg": "/hd_portfolio/static/media/hd.748379b2cefc999777f0.jpg",
+    "static/media/HemantKDiwakar.pdf": "/hd_portfolio/static/media/HemantKDiwakar.b8c1275161ac89583542.pdf",
+    "static/media/chat.png": "/hd_portfolio/static/media/chat.a280c20de88b40aa924a.png",
+    "static/media/HDlogo.png": "/hd_portfolio/static/media/HDlogo.0c64e7f9fa1911d86fe7.png",
+    "static/media/TextConverter.png": "/hd_portfolio/static/media/TextConverter.467f6310f260a1931a52.png",
     "index.html": "/hd_portfolio/index.html",
-    "main.0afaf53e.css.map": "/hd_portfolio/static/css/main.0afaf53e.css.map",
-    "main.bca2f319.js.map": "/hd_portfolio/static/js/main.bca2f319.js.map",
+    "main.e3537517.css.map": "/hd_portfolio/static/css/main.e3537517.css.map",
+    "main.9de5be9f.js.map": "/hd_portfolio/static/js/main.9de5be9f.js.map",
     "453.81fa3bb7.chunk.js.map": "/hd_portfolio/static/js/453.81fa3bb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0afaf53e.css",
-    "static/js/main.bca2f319.js"
+    "static/css/main.e3537517.css",
+    "static/js/main.9de5be9f.js"
   ]
 }
