@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hd_portfolio/static/css/main.db86de1d.css",
+    "main.css": "/hd_portfolio/static/css/main.57526df9.css",
     "main.js": "/hd_portfolio/static/js/main.055d61f5.js",
     "static/js/453.f0d65751.chunk.js": "/hd_portfolio/static/js/453.f0d65751.chunk.js",
     "static/media/netflix.png": "/hd_portfolio/static/media/netflix.c89667bf9c41d0adeed5.png",
@@ -13,12 +13,12 @@
     "static/media/HDlogo.png": "/hd_portfolio/static/media/HDlogo.0c64e7f9fa1911d86fe7.png",
     "static/media/TextConverter.png": "/hd_portfolio/static/media/TextConverter.467f6310f260a1931a52.png",
     "index.html": "/hd_portfolio/index.html",
-    "main.db86de1d.css.map": "/hd_portfolio/static/css/main.db86de1d.css.map",
+    "main.57526df9.css.map": "/hd_portfolio/static/css/main.57526df9.css.map",
     "main.055d61f5.js.map": "/hd_portfolio/static/js/main.055d61f5.js.map",
     "453.f0d65751.chunk.js.map": "/hd_portfolio/static/js/453.f0d65751.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db86de1d.css",
+    "static/css/main.57526df9.css",
     "static/js/main.055d61f5.js"
   ]
 }
