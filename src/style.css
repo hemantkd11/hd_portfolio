@@ -671,7 +671,10 @@
     display: none !important;
   }
   .css-84owx8 {
-    height: 13%;
+    height: 13% !important;
+  }
+  .css-1tcgoqg {
+    height: 80%;
   }
   .Landing-page-mob-container {
     display: flex;
@@ -700,7 +703,7 @@
   .Landing-page-mob-wrapper img {
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     z-index: -1;
   }
   .Landing-page-mob-text {
