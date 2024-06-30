@@ -260,7 +260,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 50% !important;
   -webkit-box-flex: 0;
   flex-grow: 0;
   flex-basis: auto;
@@ -668,7 +668,7 @@
   }
 
   .css-1vmpcib {
-    display: none;
+    display: none !important;
   }
   .css-84owx8 {
     height: 13%;
