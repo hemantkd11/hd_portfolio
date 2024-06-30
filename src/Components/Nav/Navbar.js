@@ -25,13 +25,13 @@ const Navbar = () => {
   return (
     <nav class={`navbar navbar-expand-lg bg-body-tertiary `}>
       <div class="container-fluid nav-main-container">
-        <a class="navbar-brand" href="/">
+        <Link class="navbar-brand" to="hd_portfolio">
           <img
             src={Logo}
             alt="hemant"
             style={{ width: "100%", maxWidth: "170px" }}
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -49,13 +49,13 @@ const Navbar = () => {
             className="navbar-nav ms-auto mb-2 mb-lg-0"
           >
             <li class="nav-item">
-              <a
+              <Link
                 class="nav-link active"
                 aria-current="page"
-                href="hd_portfolio/"
+                to="hd_portfolio/"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
               <Link class="nav-link active" to="hd_portfolio/projects/">
