@@ -256,6 +256,15 @@
 .button:active {
   background-color: var(--primary-theme-for-app-color);
 }
+.css-1i07oma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+}
 .Get-in-touch {
   border-radius: 0.25rem;
   /* text-transform: uppercase; */
