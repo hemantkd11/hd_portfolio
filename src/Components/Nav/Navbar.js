@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 import Logo from "../../Images/HDlogo.png";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   // const [scrolly, Setscrolly] = useState("false");
 
@@ -48,14 +49,18 @@ const Navbar = () => {
             className="navbar-nav ms-auto mb-2 mb-lg-0"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/home">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="hd_portfolio/"
+              >
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/projects">
+              <Link class="nav-link active" to="hd_portfolio/projects/">
                 Project
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
               <a
