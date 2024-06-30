@@ -658,11 +658,17 @@
     display: none !important;
   }
 
+  .css-1vmpcib {
+    display: none;
+  }
+  .css-84owx8 {
+    height: 13%;
+  }
   .Landing-page-mob-container {
     display: flex;
     width: 100%;
     max-width: 650px;
-    height: 90vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;

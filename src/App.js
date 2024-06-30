@@ -14,7 +14,7 @@ function App() {
       <div className="page-content">
         <Routes>
           <Route path="hd_portfolio/" element={<Landing_Page />} />
-          {/* <Route path="hd_portfolio/" element={<Project />} /> */}
+          <Route path="hd_portfolio/projects/" element={<Project />} />
         </Routes>
       </div>
     </Router>

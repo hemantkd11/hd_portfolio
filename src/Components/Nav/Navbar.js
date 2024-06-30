@@ -48,13 +48,17 @@ const Navbar = () => {
             className="navbar-nav ms-auto mb-2 mb-lg-0"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="hd_portfolio/"
+              >
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/">
-                Link
+              <a class="nav-link active" href="hd_portfolio/projects/">
+                Project
               </a>
             </li>
             <li class="nav-item">
