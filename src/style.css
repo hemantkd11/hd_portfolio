@@ -5,11 +5,11 @@
   --text-color-light-mode: #ff7f3e;
   --max-width: 1640px;
   --title: 65px;
-  --title-mob: 35px;
+  --title-mob: 30px;
 
   --icon-text: 40px;
   --subtitle: 40px;
-  --subtitle-mob: 25px;
+  --subtitle-mob: 22px;
   --text--: 18px;
   --width: 90%;
   --loading-page-padding: 5px;
@@ -831,7 +831,7 @@ body {
 
 @media only screen and (max-width: 650px) {
   .page-content {
-    padding-top: 90px;
+    padding-top: 72px;
   }
   .Landing-container {
     width: 100%;
