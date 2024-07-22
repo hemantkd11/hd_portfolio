@@ -906,7 +906,7 @@ body {
     padding: 15px;
     z-index: 1;
     height: 40%;
-    gap: 10px;
+    gap: 6px;
     display: flex;
     flex-direction: column;
     justify-content: center;
