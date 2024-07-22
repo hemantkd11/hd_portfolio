@@ -5,8 +5,11 @@
   --text-color-light-mode: #ff7f3e;
   --max-width: 1640px;
   --title: 65px;
+  --title-mob: 50px;
+
   --icon-text: 40px;
   --subtitle: 40px;
+  --subtitle-mob: 35px;
   --text--: 18px;
   --width: 90%;
   --loading-page-padding: 5px;
@@ -26,7 +29,10 @@
 
 } */
 /* navbar css */
-
+body {
+  padding: 0;
+  margin: 0;
+}
 .bg-body-tertiary {
   position: fixed;
   background: white !important;
@@ -736,6 +742,9 @@
     align-items: center;
     justify-content: center;
   }
+  .body-container {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 850px) {
   .First-project-box {
@@ -810,9 +819,7 @@
   .ul-list {
     padding: 0;
   }
-  .body-container {
-    width: 98%;
-  }
+
   .aboutMe-intro {
     width: 80%;
     font-size: 1rem;
@@ -895,14 +902,39 @@
     box-sizing: border-box;
     padding: 15px;
     z-index: 1;
+    height: 40%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* transform: rotate(-20deg); */
     /* align-items: flex-start;
     justify-content: flex-end; */
     /* flex-direction: column; */
-    background-color: #00000066;
+    background-color: #00000096;
     box-shadow: 10px -1px 10px rgb(199, 198, 198);
+  }
+  .B {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .B h3 {
+    color: lightgray;
+  }
+  .B h1 {
+    font-size: var(--title-mob);
+  }
+  .B h2 {
+    font-size: var(--subtitle-mob);
   }
   .Skill-logo {
     background-color: black;
+  }
+  .Landing-btn-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   .Lang-icon img {
     width: 40px;
@@ -949,6 +981,12 @@
   }
   .strength-content {
     font-size: 0.7rem;
+  }
+  .css-vr1odv-MuiGrid2-root {
+    display: none;
+  }
+  .css-16x2r1r-MuiGrid2-root {
+    height: 100% !important;
   }
   /* project end */
 }
