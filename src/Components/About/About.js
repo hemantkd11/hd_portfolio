@@ -25,6 +25,7 @@ const AboutPage = () => {
             kabaddi, the junior science olympiad, and multiple academic
             competitions, showcasing my versatility and enthusiasm.
           </div>
+
           {/* explore */}
           <div className="aboutMe-explore">
             <div className="aboutMe-explore-text">
@@ -111,7 +112,63 @@ const AboutPage = () => {
               <img src={Deco} alt="Deco" />
             </div>
           </div>
-          <div className="aboutMe-heading">SKILLs</div>
+
+          <div className="skill-list">
+            <div className="aboutMe-heading">
+              <div>SKILLS</div>
+            </div>
+            <div className="using-list box-width-skill">
+              <div className="hello-box">
+                <div className="box-flex">
+                  <div className="box">box1</div>
+                  <div className="box">box2</div>
+                </div>
+                <div className="box-flex">
+                  <div className="box">box3</div>
+                  <div className="box">box4</div>
+                </div>
+                <div className="box-flex">
+                  <div className="box">box5</div>
+                  <div className="box">box6 </div>
+                </div>
+                <div className="skill-type">USING NOW</div>
+              </div>
+            </div>
+            <div className="learning-list box-width-skill">
+              <div className="hello-box">
+                <div className="box-flex">
+                  <div className="box">box1</div>
+                  <div className="box">box2</div>
+                </div>
+                <div className="box-flex">
+                  <div className="box">box3</div>
+                  <div className="box">box4</div>
+                </div>
+                <div className="box-flex">
+                  <div className="box">box5</div>
+                  <div className="box">box6 </div>
+                </div>
+                <div className="skill-type">LEARNING</div>
+              </div>
+            </div>
+            <div className="Toll-list box-width-skill">
+              <div className="hello-box">
+                <div className="box-flex">
+                  <div className="box">box1</div>
+                  <div className="box">box2</div>
+                </div>
+                <div className="box-flex">
+                  <div className="box">box3</div>
+                  <div className="box">box4</div>
+                </div>
+                <div className="box-flex">
+                  <div className="box">box5</div>
+                  <div className="box">box6 </div>
+                </div>
+                <div className="skill-type">OTHER SKILLS</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
