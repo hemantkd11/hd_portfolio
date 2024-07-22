@@ -58,6 +58,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li class="nav-item">
+              <Link class="nav-link active" to="hd_portfolio/about/">
+                About
+              </Link>
+            </li>
+            <li class="nav-item">
               <Link class="nav-link active" to="hd_portfolio/projects/">
                 Project
               </Link>

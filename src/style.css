@@ -1,5 +1,6 @@
 :root {
   --primary-theme-for-app-color: #ff7f3e;
+  --body-theme: -webkit-linear-gradient(125deg, #ff7f3e, #1f2755);
   --headline-color: -webkit-linear-gradient(125deg, #ff7f3e, #1f2755);
   --text-color-light-mode: #ff7f3e;
   --max-width: 1640px;
@@ -69,6 +70,7 @@
   width: 100%;
   padding-top: 70px;
   height: calc(100vh -70px);
+  /* background: var(--body-theme); */
 }
 /* landing container */
 
@@ -98,7 +100,7 @@
 .Loading-page-wel h3 {
   font-size: var(--loading-page-wel);
   padding: var(--loading-page-padding);
-  color: rgb(124, 121, 121);
+  color: rgb(183, 183, 183);
 }
 .Loading-page-name h1 {
   font-size: var(--loading-page-name);
@@ -110,6 +112,7 @@
 .Loading-page-role h2 {
   font-size: var(--loading-page-role);
   padding: var(--loading-page-padding);
+  color: black;
 }
 .Landing-btn-box {
   padding: var(--loading-page-padding);
@@ -366,6 +369,7 @@
   width: 100%;
   padding: 15px 0px 60px 0px;
   justify-content: center;
+  background: white;
 }
 .Project-container .Project-main {
   margin-top: 10px;
@@ -503,12 +507,17 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-color: white;
 }
 .Project-details .discription-head {
   color: var(--text-color-light-mode);
 }
 .discription {
   color: rgb(124, 121, 121);
+  align-items: baseline;
+  text-align: justify;
+  text-justify: auto;
+  text-align-last: center;
 }
 .about-lang-and-links {
   display: flex;
@@ -538,8 +547,156 @@
   padding: 7px;
 }
 /* Project css end */
+/* about css start */
+.outer-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.inner-container {
+  width: 80%;
+  height: auto;
+  display: flex;
+}
+.body-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6vh;
+}
+.aboutMe-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 4px lightgray;
+  font-size: 1.4rem;
+  padding: 5px 15px;
+  border: 6px solid black;
+}
+.aboutMe-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  font-size: 1.3rem;
+  /* -moz-text-align-last: center;
+  text-align-last: center; */
+  text-align: justify;
+  text-justify: auto;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+.aboutMe-explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.aboutMe-explore-text {
+  text-align: center;
+  font-size: 15px;
+}
+.aboutMe-explore-text span:first-child {
+  padding-right: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+.aboutMe-explore-text span:last-child {
+  padding-left: 10px;
+  font-size: 25px;
+}
+.aboutMe-explore-design {
+  width: 100px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutMe-explore-design img {
+  width: 100%;
+  height: 100%;
+}
+.aboutMe-explore-design-2 {
+  width: 100px;
+  height: 20px;
 
-@media only screen and (max-width: 1000px) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutMe-explore-design-2 img {
+  width: 100%;
+  height: 100%;
+}
+.aboutMe-strength {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.designAndDevelopment {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.flex-width {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+}
+.flex-strength-text {
+  box-sizing: border-box;
+  /* box-shadow: 0 0 4px rgb(108, 108, 108); */
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 100%;
+  min-height: 130px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.strength-heading {
+  display: flex;
+  font-size: 1.6vw;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* align-items: center; */
+}
+.strength-content {
+  font-size: 16px;
+  color: rgb(103, 103, 103);
+  text-align: justify;
+  text-justify: auto;
+}
+.icon-aboutMe {
+  max-width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* about css end */
+
+@media screen and (max-width: 1000px) {
   .css-16x2r1r-MuiGrid2-root {
     height: 80% !important;
   }
@@ -570,6 +727,15 @@
     border-radius: 50%;
     width: 100%;
   }
+  .discription {
+    font-size: 12px;
+  }
+  .inner-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 850px) {
   .First-project-box {
@@ -577,6 +743,10 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+  .aboutMe-intro {
+    width: 80%;
+    font-size: 1rem;
   }
   .flex-reverse {
     flex-direction: column-reverse;
@@ -611,36 +781,44 @@
     justify-content: center;
     text-align: center;
   }
-  @media screen and (max-width: 850px) {
-    .First-project-box {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .flex-reverse {
-      flex-direction: column-reverse;
-    }
-    .First-project-box .project-img {
-      width: 100%;
-      text-align: center;
-    }
-    .First-project-box .project-img img {
-      width: 100%;
-      max-width: 500px;
-      height: auto;
-    }
-    .Project-details {
-      width: 100%;
-      display: flex;
-      gap: 20px;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-    }
-    .ul-list {
-      padding: 0;
-    }
+  .First-project-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .flex-reverse {
+    flex-direction: column-reverse;
+  }
+  .First-project-box .project-img {
+    width: 100%;
+    text-align: center;
+  }
+  .First-project-box .project-img img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  .Project-details {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .ul-list {
+    padding: 0;
+  }
+  .body-container {
+    width: 98%;
+  }
+  .aboutMe-intro {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .designAndDevelopment {
+    flex-direction: column;
   }
 }
 
@@ -654,6 +832,9 @@
     height: 90vh;
     align-items: center;
     justify-content: center;
+  }
+  .discription {
+    font-size: 10px;
   }
   .Landing-wrapper {
     /* padding: 10px; */
@@ -678,6 +859,7 @@
   }
 
   .Landing-page-mob-container {
+    /* padding-top: 30p; */
     display: flex;
     width: 100%;
     max-width: 650px;
@@ -686,9 +868,9 @@
     align-items: center;
     justify-content: center;
   }
-  .css-15lwfeb-MuiGrid2-root {
+  /* .css-15lwfeb-MuiGrid2-root {
     height: auto !important;
-  }
+  } */
   .css-vr1odv-MuiGrid2-root {
     padding: 10px !important;
     background-color: black;
@@ -705,13 +887,14 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    /* z-index: -1; */
   }
   .Landing-page-mob-text {
     color: white;
     width: 100%;
     box-sizing: border-box;
     padding: 15px;
+    z-index: 1;
     /* align-items: flex-start;
     justify-content: flex-end; */
     /* flex-direction: column; */
@@ -752,6 +935,21 @@
     padding: 5px;
     border-bottom: 1px solid red;
   }
+  .aboutMe-heading {
+    font-size: 1rem;
+  }
+  .aboutMe-strength {
+    gap: 20px;
+  }
+  .aboutMe-intro {
+    font-size: 0.7rem;
+  }
+  .flex-width {
+    width: 80%;
+  }
+  .strength-content {
+    font-size: 0.7rem;
+  }
   /* project end */
 }
 @media screen and (max-width: 350px) {
@@ -764,3 +962,9 @@
     justify-content: center;
   }
 }
+
+/* .Lang-icon img {
+  background-color: yellow;
+  background-blend-mode: multiply;
+  mix-blend-mode: red;
+} */
