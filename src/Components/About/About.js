@@ -3,6 +3,18 @@ import DesignServicesIcon from "@mui/icons-material/DesignServices";
 import DeveloperBoardIcon from "@mui/icons-material/DeveloperBoard";
 import ConstructionIcon from "@mui/icons-material/Construction";
 import Deco from "../../Images/decoration.png";
+import ReactSkill from "../../Images/ReactImg.png";
+import JavascriptSkill from "../../Images/JsImg.png";
+import HTMLSkill from "../../Images/HTMLImg.png";
+import CSSSkill from "../../Images/CSSImg.png";
+import PythonSkill from "../../Images/PythonImg.png";
+import NodeJSSKill from "../../Images/NodeJSImg.png";
+import NextJSSkill from "../../Images/NextJSImg.png";
+import SqLSkill from "../../Images/SQLImg.png";
+import MoongoDB from "../../Images/MOngoDBImg.png";
+import MaterialUISkill from "../../Images/MaterialUIImg.png";
+import EXCELSkill from "../../Images/ExcelUImg.png";
+import ExpressJSSkill from "../../Images/ExpressJSImg.png";
 const AboutPage = () => {
   return (
     <div className="outerBox outer-container">
@@ -112,59 +124,106 @@ const AboutPage = () => {
               <img src={Deco} alt="Deco" />
             </div>
           </div>
-
+          <div className="skill-heading">
+            <div>SKILLS</div>
+          </div>
           <div className="skill-list">
-            <div className="aboutMe-heading">
-              <div>SKILLS</div>
-            </div>
             <div className="using-list box-width-skill">
               <div className="hello-box">
                 <div className="box-flex">
-                  <div className="box">box1</div>
-                  <div className="box">box2</div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={ReactSkill} alt="" />
+                    </div>
+                  </div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={JavascriptSkill} alt="" />
+                    </div>
+                  </div>
                 </div>
                 <div className="box-flex">
-                  <div className="box">box3</div>
-                  <div className="box">box4</div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={HTMLSkill} alt="" />
+                    </div>
+                  </div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={CSSSkill} alt="" />
+                    </div>
+                  </div>
                 </div>
-                <div className="box-flex">
+                {/* <div className="box-flex">
                   <div className="box">box5</div>
                   <div className="box">box6 </div>
-                </div>
+                </div> */}
                 <div className="skill-type">USING NOW</div>
               </div>
             </div>
             <div className="learning-list box-width-skill">
               <div className="hello-box">
                 <div className="box-flex">
-                  <div className="box">box1</div>
-                  <div className="box">box2</div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={NextJSSkill} alt="" />
+                    </div>
+                  </div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={PythonSkill} alt="" />
+                    </div>
+                  </div>
                 </div>
                 <div className="box-flex">
-                  <div className="box">box3</div>
-                  <div className="box">box4</div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={NodeJSSKill} alt="" />
+                    </div>
+                  </div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={SqLSkill} alt="" />
+                    </div>
+                  </div>
                 </div>
-                <div className="box-flex">
+                {/* <div className="box-flex">
                   <div className="box">box5</div>
                   <div className="box">box6 </div>
-                </div>
+                </div> */}
                 <div className="skill-type">LEARNING</div>
               </div>
             </div>
             <div className="Toll-list box-width-skill">
               <div className="hello-box">
                 <div className="box-flex">
-                  <div className="box">box1</div>
-                  <div className="box">box2</div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={MaterialUISkill} alt="" />
+                    </div>
+                  </div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={MoongoDB} alt="" />
+                    </div>
+                  </div>
                 </div>
                 <div className="box-flex">
-                  <div className="box">box3</div>
-                  <div className="box">box4</div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={EXCELSkill} alt="" />
+                    </div>
+                  </div>
+                  <div className="box">
+                    <div className="Skill-logo-box">
+                      <img src={ExpressJSSkill} alt="" />
+                    </div>
+                  </div>
                 </div>
-                <div className="box-flex">
+                {/* <div className="box-flex">
                   <div className="box">box5</div>
                   <div className="box">box6 </div>
-                </div>
+                </div> */}
                 <div className="skill-type">OTHER SKILLS</div>
               </div>
             </div>
