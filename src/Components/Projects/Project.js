@@ -61,11 +61,12 @@ const Project = () => {
             <div class="Project-details">
               <h3 class="discription-head">Ecommerce web Application</h3>
               <p class="discription">
-                A Online Shopping Platform that allow users to select what they
-                want And ADD It to cart and After That they can go to Cart
-                checkout if they really Want that item or not if not then they
-                can remove that item from card and go to home page to select
-                another item.
+                The online shopping platform lets users browse and add items to
+                their cart. They can review their selections, decide to proceed
+                with checkout, or remove items if desired. Users can return to
+                the home page to explore and add more items, simplifying the
+                shopping experience with clear cart management and purchase
+                options.
               </p>
               {/* <p class="discription">
                 This is an demo app so The Data is coming from DB file. But I
