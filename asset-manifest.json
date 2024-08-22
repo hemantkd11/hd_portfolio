@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hd_portfolio/static/css/main.979e762f.css",
-    "main.js": "/hd_portfolio/static/js/main.976aaba4.js",
+    "main.css": "/hd_portfolio/static/css/main.f5afff77.css",
+    "main.js": "/hd_portfolio/static/js/main.3708a9c1.js",
     "static/js/453.f0d65751.chunk.js": "/hd_portfolio/static/js/453.f0d65751.chunk.js",
     "static/media/netflix.png": "/hd_portfolio/static/media/netflix.c89667bf9c41d0adeed5.png",
     "static/media/webpage.png": "/hd_portfolio/static/media/webpage.3708babebb32fcb19906.png",
@@ -15,6 +15,7 @@
     "static/media/SQLImg.png": "/hd_portfolio/static/media/SQLImg.0d7c18a75b27908a9690.png",
     "static/media/NextJSImg.png": "/hd_portfolio/static/media/NextJSImg.6cd6170739bc98433126.png",
     "static/media/ExpressJSImg.png": "/hd_portfolio/static/media/ExpressJSImg.8b4637c702dd837141e1.png",
+    "static/media/Weather_report_img.png": "/hd_portfolio/static/media/Weather_report_img.284022305112d1b6c27b.png",
     "static/media/PythonImg.png": "/hd_portfolio/static/media/PythonImg.46618134184aeb656c89.png",
     "static/media/JsImg.png": "/hd_portfolio/static/media/JsImg.bc9d8335d9e1e987656e.png",
     "static/media/MOngoDBImg.png": "/hd_portfolio/static/media/MOngoDBImg.b6904528dca612496636.png",
@@ -23,15 +24,16 @@
     "static/media/HTMLImg.png": "/hd_portfolio/static/media/HTMLImg.3fe8265b46179c232e8a.png",
     "static/media/chat.png": "/hd_portfolio/static/media/chat.a280c20de88b40aa924a.png",
     "static/media/HDlogo.png": "/hd_portfolio/static/media/HDlogo.0c64e7f9fa1911d86fe7.png",
+    "static/media/LinkedIn.png": "/hd_portfolio/static/media/LinkedIn.5731555b97fad92f0018.png",
     "static/media/decoration.png": "/hd_portfolio/static/media/decoration.b6b16b9661bbf17b39f3.png",
     "static/media/TextConverter.png": "/hd_portfolio/static/media/TextConverter.467f6310f260a1931a52.png",
     "index.html": "/hd_portfolio/index.html",
-    "main.979e762f.css.map": "/hd_portfolio/static/css/main.979e762f.css.map",
-    "main.976aaba4.js.map": "/hd_portfolio/static/js/main.976aaba4.js.map",
+    "main.f5afff77.css.map": "/hd_portfolio/static/css/main.f5afff77.css.map",
+    "main.3708a9c1.js.map": "/hd_portfolio/static/js/main.3708a9c1.js.map",
     "453.f0d65751.chunk.js.map": "/hd_portfolio/static/js/453.f0d65751.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.979e762f.css",
-    "static/js/main.976aaba4.js"
+    "static/css/main.f5afff77.css",
+    "static/js/main.3708a9c1.js"
   ]
 }
