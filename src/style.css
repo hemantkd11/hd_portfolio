@@ -51,12 +51,19 @@ body {
   box-sizing: border-box;
   box-shadow: 0 4px 2px -2px rgb(0, 0, 0);
 } */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 10px 0px 4px black;
+}
 .nav-main-container {
   width: var(--width) !important;
   max-width: var(--nav-max-width) !important;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.navbar-expand-lg .navbar-nav {
+  align-items: center;
 }
 .navbar-nav .nav-link {
   color: var(--text-color-light-mode) !important;
@@ -71,8 +78,19 @@ body {
   align-items: center;
 }
 .navbar-collapse {
-  background: #c5c1c166;
+  /* background: #c5c1c166; */
   padding-left: 10px;
+}
+.LinkedIn {
+  width: 30px;
+  background-color: #f9f9f9;
+  /* border-radius: 10px; */
+  height: 30px;
+  display: flex;
+}
+.LinkedIn img {
+  width: 100%;
+  /* border-radius: 10px; */
 }
 /* box for all page */
 .page-content {
@@ -730,8 +748,12 @@ body {
   border-radius: 10px;
   width: 200px;
   height: 200px;
-  background: linear-gradient(125deg, #03a9f4, #cc39a4, #ffb5d2);
-  box-shadow: inset 0px 0px 180px 5px #ffffff;
+  background: linear-gradient(
+    135deg,
+    var(--primary-theme-for-app-color) 70%,
+    #03a9f4 50%
+  );
+  box-shadow: inset 0px 0px 10px #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -88,10 +88,9 @@ const AboutPage = () => {
                     </div>
                   </div>
                   <div className="strength-content">
-                    With 1.5 years of experience as a Frontend Developer, I
-                    specialize in building applications from scratch using
-                    React.js and various libraries, delivering exceptional user
-                    interfaces.
+                    Based on project created by me or another one, sent by you,
+                    I can program the website to be fully funtional and
+                    responsive
                   </div>
                 </div>
               </div>

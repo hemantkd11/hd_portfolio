@@ -5,6 +5,7 @@ import Netflix from "../../Images/netflix.png";
 import Api_Fetch from "../../Images/Fetch.png";
 import ChatBot from "../../Images/chat.png";
 import Speech_App from "../../Images/TextConverter.png";
+import Weather_report from "../../Images/Weather_report_img.png";
 const Project = () => {
   return (
     // <div class="tabcontent" id="Project">
@@ -59,14 +60,15 @@ const Project = () => {
           {/* <!---second project--> */}
           <div class="First-project-box flex-reverse">
             <div class="Project-details">
-              <h3 class="discription-head">Ecommerce web Application</h3>
+              <h3 class="discription-head">Weather_Report</h3>
               <p class="discription">
-                The online shopping platform lets users browse and add items to
-                their cart. They can review their selections, decide to proceed
-                with checkout, or remove items if desired. Users can return to
-                the home page to explore and add more items, simplifying the
-                shopping experience with clear cart management and purchase
-                options.
+                Developed a weather report application using React.js, which
+                integrates with weather APIs to fetch and display real-time
+                weather data. Utilized Tailwind CSS for responsive and modern
+                styling, ensuring a user-friendly interface. The project allows
+                users to search for weather conditions by city and view detailed
+                information including temperature, wind speed, visibility, and
+                humidity.
               </p>
               {/* <p class="discription">
                 This is an demo app so The Data is coming from DB file. But I
@@ -76,15 +78,16 @@ const Project = () => {
               <div class="about-lang-and-links">
                 <ul class="ul-list">
                   <li>REACTJS</li>
-                  <li>CSS</li>
+                  <li>Tailwind CSS</li>
                   <li>JAVASCRIPT</li>
-                  <li>HTML</li>
-                  <li>MONGODB</li>
+                  <li>NEXTJS</li>
+                  <li>APIs</li>
                 </ul>
               </div>
               <div>
                 <a
-                  href="https://hemantkd11.github.io/amazon_react/"
+                  // href="https://hemantkd11.github.io/amazon_react/"
+                  href="https://hemantkd11.github.io/weather_report/"
                   target="_blank"
                 >
                   <button
@@ -97,7 +100,7 @@ const Project = () => {
               </div>
             </div>
             <div class="project-2-img image-align-end">
-              <img src={Ecommerce} alt="img" />
+              <img src={Weather_report} alt="img" />
             </div>
           </div>
 
