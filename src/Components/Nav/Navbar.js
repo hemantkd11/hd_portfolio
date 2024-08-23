@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 import Logo from "../../Images/HDlogo.png";
 import { Link } from "react-router-dom";
-import LinkedIn from "../../Images/LinkedIn.png";
+
 const Navbar = () => {
   // const [scrolly, Setscrolly] = useState("false");
 
@@ -70,13 +70,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link
-          className=" LinkedIn "
-          target="_blank"
-          to="https://www.linkedin.com/in/hemant-diwakar-362aa7244/"
-        >
-          <img src={LinkedIn} alt="" />
-        </Link>
       </div>
     </nav>
   );

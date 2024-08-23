@@ -81,6 +81,11 @@ body {
   /* background: #c5c1c166; */
   padding-left: 10px;
 }
+.nav-part-two {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
 .LinkedIn {
   width: 30px;
   background-color: #f9f9f9;
@@ -148,7 +153,92 @@ body {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  flex-direction: column;
   gap: 30px;
+}
+.btn-download-get {
+  padding: var(--loading-page-padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 30px;
+}
+.btn-linkedin-git {
+  display: flex;
+  gap: 30px;
+  box-sizing: border-box;
+}
+.linkedIn-btn-mobile {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.linked-git-btn-mobile {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+.color-In {
+  background-color: #1b69b8;
+  overflow: hidden;
+}
+.color-Git {
+  background-color: black;
+}
+.linkedIn-btn-mobile a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #1f2755; */
+  overflow: hidden;
+}
+.linkedIn-btn-mobile .Image_linkedIn {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.btn-linkedin-git .linkedIn-color img {
+  padding: 3px;
+  background-color: #1b69b8;
+}
+.social-common {
+  background-color: #1b69b8;
+  padding: 2px;
+
+  border-radius: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.git-color {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.social-common:hover {
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  /* padding: 0px; */
+  box-sizing: border-box;
+}
+.git-color:hover {
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  /* padding: 0px; */
+  box-sizing: border-box;
 }
 .Landing-page-mob-container {
   display: none;
@@ -1089,6 +1179,9 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+  }
+  .for-mobile {
+    flex-direction: row;
   }
   .Lang-icon img {
     width: 40px;
