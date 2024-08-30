@@ -87,7 +87,7 @@ const Landing_Page = () => {
                           <Link
                             className=" LinkedIn git-color-a"
                             target="_blank"
-                            to="https://www.linkedin.com/in/hemant-diwakar-362aa7244/"
+                            to="https://github.com/hemantkd11"
                           >
                             <img src={Git} alt="" />
                           </Link>
