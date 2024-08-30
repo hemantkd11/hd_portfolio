@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <div className="page-content">
         <Routes>
-          <Route path="hd_portfolio/" element={<Landing_Page />} />
+          <Route path="/hd_portfolio/" element={<Landing_Page />} />
           <Route path="hd_portfolio/projects/" element={<Project />} />
           <Route path="hd_portfolio/about/" element={<AboutPage />} />
         </Routes>
