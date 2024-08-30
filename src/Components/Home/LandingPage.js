@@ -3,7 +3,7 @@ import React from "react";
 import { Box } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 import HD from "../../Images/hd.jpg";
-import Resume from "../../Images/HemantKDiwakar.pdf";
+import Resume from "../../Images/HKD96.pdf";
 import { Link } from "react-router-dom";
 import LinkedIn from "../../Images/LinkedIn.png";
 import Git from "../../Images/gitImg.png";

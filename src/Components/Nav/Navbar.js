@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <nav class={`navbar navbar-expand-lg bg-body-tertiary `}>
       <div class="container-fluid nav-main-container">
-        <Link class="navbar-brand" to="hd_portfolio">
+        <Link class="navbar-brand" to="/">
           <img
             src={Logo}
             alt="hemant"
@@ -50,21 +50,17 @@ const Navbar = () => {
             className="navbar-nav ms-auto mb-2 mb-lg-0"
           >
             <li class="nav-item">
-              <Link
-                class="nav-link active"
-                aria-current="page"
-                to="hd_portfolio/"
-              >
+              <Link class="nav-link active" aria-current="page" to="/">
                 Home
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link active" to="hd_portfolio/about/">
+              <Link class="nav-link active" to="/about">
                 About
               </Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link active" to="hd_portfolio/projects/">
+              <Link class="nav-link active" to="/projects">
                 Project
               </Link>
             </li>
