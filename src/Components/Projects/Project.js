@@ -104,19 +104,22 @@ const Project = () => {
               <img src={Weather_report} alt="img" />
             </div>
           </div>
-          {/* hello new project */}
+          {/* third project */}
           <div class="First-project-box">
             <div class="project-img">
               <img src={Onspace} alt="img" />
             </div>
             <div class="Project-details">
-              <h3 class="discription-head"></h3>
+              <h3 class="discription-head">
+                On-Space: Your Go-To Platform for Renting Spaces
+              </h3>
               <p class="discription">
-                Welcome to Video streaming App, the ultimate destination for a
-                diverse range of movies and shows. With a library of content
-                meticulously curated by our team, we bring you an extensive
-                collection of entertainment across various genres, including
-                action, comedy, romance, and more.
+                Developed a feature-rich web application for renting venues
+                tailored to parties, office meetings, and cozy get-togethers.
+                Integrated dynamic search, booking functionalities, and state
+                management using React.js, Context API, and Reducer Hooks.
+                Leveraged HTML, CSS, and JavaScript for a responsive and
+                user-friendly interface.
               </p>
 
               <div class="about-lang-and-links">
@@ -125,54 +128,22 @@ const Project = () => {
                   <li>CSS</li>
                   <li>JAVASCRIPT</li>
                   <li>HTML</li>
+                  <li>Redux</li>
                 </ul>
               </div>
               <div>
-                {/* <!-- <a href="https://hemantkd11.github.io/webpage_ui/"
-                        target="_blank"><Button class="Button">Click
-                          For Demo</Button></a> --> */}
-                <button
-                  //   onclick="openTab(event,'Get-In-Touch')"
-                  className="tablinks Get-in-touch"
+                <a
+                  // href="https://hemantkd11.github.io/amazon_react/"
+                  href="https://hemantkd11.github.io/rent-space/"
+                  target="_blank"
                 >
-                  Demo
-                </button>
-              </div>
-            </div>
-          </div>
-          {/* <!---third project--> */}
-          <div class="First-project-box">
-            <div class="project-img">
-              <img src={Netflix} alt="img" />
-            </div>
-            <div class="Project-details">
-              <h3 class="discription-head">Video streaming App</h3>
-              <p class="discription">
-                Welcome to Video streaming App, the ultimate destination for a
-                diverse range of movies and shows. With a library of content
-                meticulously curated by our team, we bring you an extensive
-                collection of entertainment across various genres, including
-                action, comedy, romance, and more.
-              </p>
-
-              <div class="about-lang-and-links">
-                <ul class="ul-list">
-                  <li>REACTJS</li>
-                  <li>CSS</li>
-                  <li>JAVASCRIPT</li>
-                  <li>HTML</li>
-                </ul>
-              </div>
-              <div>
-                {/* <!-- <a href="https://hemantkd11.github.io/webpage_ui/"
-                        target="_blank"><Button class="Button">Click
-                          For Demo</Button></a> --> */}
-                <button
-                  //   onclick="openTab(event,'Get-In-Touch')"
-                  className="tablinks Get-in-touch"
-                >
-                  Demo
-                </button>
+                  <button
+                    //   onclick="openTab(event,'Get-In-Touch')"
+                    className="tablinks Get-in-touch"
+                  >
+                    Demo
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -212,34 +183,36 @@ const Project = () => {
           {/* <!---fifth project--> */}
           <div class="First-project-box">
             <div class="project-img">
-              <img src={ChatBot} alt="img" />
+              <img src={Netflix} alt="img" />
             </div>
             <div class="Project-details">
-              <h3 class="discription-head">ChatBot</h3>
+              <h3 class="discription-head">Video streaming App</h3>
               <p class="discription">
-                Chat App this app is created by using JAVASCRIPt, HTML , CSS in
-                this app you can simply send message from one chat box to other
+                Welcome to Video streaming App, the ultimate destination for a
+                diverse range of movies and shows. With a library of content
+                meticulously curated by our team, we bring you an extensive
+                collection of entertainment across various genres, including
+                action, comedy, romance, and more.
               </p>
 
               <div class="about-lang-and-links">
                 <ul class="ul-list">
+                  <li>REACTJS</li>
                   <li>CSS</li>
                   <li>JAVASCRIPT</li>
                   <li>HTML</li>
                 </ul>
               </div>
               <div>
-                <a
-                  href="https://hemantkd11.github.io/ChatAppJS/"
-                  target="_blank"
+                {/* <!-- <a href="https://hemantkd11.github.io/webpage_ui/"
+                        target="_blank"><Button class="Button">Click
+                          For Demo</Button></a> --> */}
+                <button
+                  //   onclick="openTab(event,'Get-In-Touch')"
+                  className="tablinks Get-in-touch"
                 >
-                  <button
-                    //   onclick="openTab(event,'Get-In-Touch')"
-                    className="tablinks Get-in-touch"
-                  >
-                    Demo
-                  </button>{" "}
-                </a>
+                  Demo
+                </button>
               </div>
             </div>
           </div>
@@ -279,6 +252,41 @@ const Project = () => {
             </div>
             <div class="project-2-img image-align-end">
               <img src={Speech_App} alt="img" />
+            </div>
+          </div>
+
+          {/* <!---Seventh project--> */}
+          <div class="First-project-box">
+            <div class="project-img">
+              <img src={ChatBot} alt="img" />
+            </div>
+            <div class="Project-details">
+              <h3 class="discription-head">ChatBot</h3>
+              <p class="discription">
+                Chat App this app is created by using JAVASCRIPt, HTML , CSS in
+                this app you can simply send message from one chat box to other
+              </p>
+
+              <div class="about-lang-and-links">
+                <ul class="ul-list">
+                  <li>CSS</li>
+                  <li>JAVASCRIPT</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+              <div>
+                <a
+                  href="https://hemantkd11.github.io/ChatAppJS/"
+                  target="_blank"
+                >
+                  <button
+                    //   onclick="openTab(event,'Get-In-Touch')"
+                    className="tablinks Get-in-touch"
+                  >
+                    Demo
+                  </button>{" "}
+                </a>
+              </div>
             </div>
           </div>
         </div>
