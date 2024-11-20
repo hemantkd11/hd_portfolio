@@ -4,6 +4,7 @@ import Ecommerce from "../../Images/amazon.png";
 import Netflix from "../../Images/netflix.png";
 import Api_Fetch from "../../Images/Fetch.png";
 import ChatBot from "../../Images/chat.png";
+import Onspace from "../../Images/Onspace.png";
 import Speech_App from "../../Images/TextConverter.png";
 import Weather_report from "../../Images/Weather_report_img.png";
 const Project = () => {
@@ -103,7 +104,42 @@ const Project = () => {
               <img src={Weather_report} alt="img" />
             </div>
           </div>
+          {/* hello new project */}
+          <div class="First-project-box">
+            <div class="project-img">
+              <img src={Onspace} alt="img" />
+            </div>
+            <div class="Project-details">
+              <h3 class="discription-head"></h3>
+              <p class="discription">
+                Welcome to Video streaming App, the ultimate destination for a
+                diverse range of movies and shows. With a library of content
+                meticulously curated by our team, we bring you an extensive
+                collection of entertainment across various genres, including
+                action, comedy, romance, and more.
+              </p>
 
+              <div class="about-lang-and-links">
+                <ul class="ul-list">
+                  <li>REACTJS</li>
+                  <li>CSS</li>
+                  <li>JAVASCRIPT</li>
+                  <li>HTML</li>
+                </ul>
+              </div>
+              <div>
+                {/* <!-- <a href="https://hemantkd11.github.io/webpage_ui/"
+                        target="_blank"><Button class="Button">Click
+                          For Demo</Button></a> --> */}
+                <button
+                  //   onclick="openTab(event,'Get-In-Touch')"
+                  className="tablinks Get-in-touch"
+                >
+                  Demo
+                </button>
+              </div>
+            </div>
+          </div>
           {/* <!---third project--> */}
           <div class="First-project-box">
             <div class="project-img">
