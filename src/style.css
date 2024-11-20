@@ -156,6 +156,14 @@ body {
   flex-direction: column;
   gap: 30px;
 }
+.Get-in-touch {
+  width: 100%;
+}
+.Get-in-touch .get-in-link {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
 .btn-download-get {
   padding: var(--loading-page-padding);
   display: flex;

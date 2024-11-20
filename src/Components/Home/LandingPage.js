@@ -69,7 +69,9 @@ const Landing_Page = () => {
                             //   onclick="openTab(event,'Get-In-Touch')"
                             class="tablinks Get-in-touch"
                           >
-                            Get In Touch
+                            <Link className="get-in-link" to="/getintouch">
+                              Get In Touch
+                            </Link>
                           </button>
                         </div>
                       </div>
@@ -140,7 +142,7 @@ const Landing_Page = () => {
                           //   onclick="openTab(event,'Get-In-Touch')"
                           class="tablinks Get-in-touch"
                         >
-                          Get In Touch
+                          <Link to="/getintouch">Get In Touch</Link>
                         </button>
                       </div>
                     </div>
