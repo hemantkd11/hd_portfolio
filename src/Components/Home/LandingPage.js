@@ -38,7 +38,7 @@ const Landing_Page = () => {
                       <h1>I Am Hemant Diwakar</h1>
                     </div>
                     <div className="Loading-page-role">
-                      <h2>Front-End ReactJS Developer</h2>
+                      <h2>Front-End Developer</h2>
                     </div>
                     <div className="Landing-btn-box">
                       <div className="btn-download-get">
@@ -112,7 +112,7 @@ const Landing_Page = () => {
                     <div className="B">
                       <h3>HEY THERE !</h3>
                       <h1>I Am Hemant Diwakar</h1>
-                      <h2>Front-End RaectJS Developer</h2>
+                      <h2>Front-End Developer</h2>
                     </div>
                     <div className="Landing-btn-box for-mobile">
                       <div>
@@ -142,7 +142,9 @@ const Landing_Page = () => {
                           //   onclick="openTab(event,'Get-In-Touch')"
                           class="tablinks Get-in-touch"
                         >
-                          <Link to="/getintouch">Get In Touch</Link>
+                          <Link className="get-in-link" to="/getintouch">
+                            Get In Touch
+                          </Link>
                         </button>
                       </div>
                     </div>
