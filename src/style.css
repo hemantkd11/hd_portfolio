@@ -960,7 +960,7 @@ body {
   }
   .photo-adjust img {
     position: absolute;
-    padding: 16px;
+    padding: 5px;
     width: 100%;
     height: 100%;
     max-width: 320px;
@@ -1077,7 +1077,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 850px) {
   .page-content {
     padding-top: 72px;
     height: auto;
@@ -1103,7 +1103,6 @@ body {
   .css-1swkcd3-MuiGrid2-root {
     display: none !important;
   }
-
   .css-1vmpcib {
     display: none !important;
   }
@@ -1135,6 +1134,7 @@ body {
     background-color: black;
   }
   .Landing-page-mob-wrapper {
+    position: relative;
     display: flex;
     width: 100%;
     height: 100%;
@@ -1169,7 +1169,7 @@ body {
   .B {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
   }
   .B h3 {
     color: lightgray;

@@ -148,34 +148,6 @@ const Landing_Page = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="linked-git-btn-mobile">
-                      <div className="linkedIn-btn-mobile color-In">
-                        <Link
-                          className="  linkedIn-btn-mobile-link"
-                          target="_blank"
-                          to="https://www.linkedin.com/in/hemant-diwakar-362aa7244/"
-                        >
-                          <img
-                            src={LinkedIn}
-                            alt="LinkedIn"
-                            className="Image_linkedIn"
-                          />
-                        </Link>
-                      </div>
-                      <div className="linkedIn-btn-mobile color-Git">
-                        <Link
-                          className="  linkedIn-btn-mobile-link"
-                          target="_blank"
-                          to="https://github.com/hemantkd11"
-                        >
-                          <img
-                            src={Git}
-                            alt="LinkedIn"
-                            className="Image_linkedIn"
-                          />
-                        </Link>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>

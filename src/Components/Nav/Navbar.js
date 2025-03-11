@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 import Logo from "../../Images/HDlogo.png";
 import { Link } from "react-router-dom";
+import LinkedIn from "../../Images/LinkedIn.png";
+import Git from "../../Images/gitImg.png";
 
 const Navbar = () => {
   // const [scrolly, Setscrolly] = useState("false");
@@ -33,6 +35,26 @@ const Navbar = () => {
             style={{ width: "100%", maxWidth: "170px" }}
           />
         </Link>
+        <div className="linked-git-btn-mobile">
+          <div className="linkedIn-btn-mobile color-In">
+            <Link
+              className="linkedIn-btn-mobile-link"
+              target="_blank"
+              to="https://www.linkedin.com/in/hemant-diwakar-frontend-developer/"
+            >
+              <img src={LinkedIn} alt="LinkedIn" className="Image_linkedIn" />
+            </Link>
+          </div>
+          <div className="linkedIn-btn-mobile color-Git">
+            <Link
+              className="  linkedIn-btn-mobile-link"
+              target="_blank"
+              to="https://github.com/hemantkd11"
+            >
+              <img src={Git} alt="LinkedIn" className="Image_linkedIn" />
+            </Link>
+          </div>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
