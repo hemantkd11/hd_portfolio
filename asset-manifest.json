@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hd_portfolio/static/css/main.337e0e58.css",
-    "main.js": "/hd_portfolio/static/js/main.2c496ef3.js",
+    "main.css": "/hd_portfolio/static/css/main.064a1dfe.css",
+    "main.js": "/hd_portfolio/static/js/main.ebe60f9e.js",
     "static/js/453.f0d65751.chunk.js": "/hd_portfolio/static/js/453.f0d65751.chunk.js",
     "static/media/netflix.png": "/hd_portfolio/static/media/netflix.c89667bf9c41d0adeed5.png",
     "static/media/Onspace.png": "/hd_portfolio/static/media/Onspace.b32dffb2da5722905ae9.png",
@@ -10,6 +10,7 @@
     "static/media/Fetch.png": "/hd_portfolio/static/media/Fetch.9350357c71b0a9746a65.png",
     "static/media/hd.jpg": "/hd_portfolio/static/media/hd.748379b2cefc999777f0.jpg",
     "static/media/ReactImg.png": "/hd_portfolio/static/media/ReactImg.064e63a173378bcd9a7e.png",
+    "static/media/HKD96.pdf": "/hd_portfolio/static/media/HKD96.fe2b5d3f0f5049319528.pdf",
     "static/media/ExcelUImg.png": "/hd_portfolio/static/media/ExcelUImg.1cbc36afa4519f5bf92e.png",
     "static/media/NodeJSImg.png": "/hd_portfolio/static/media/NodeJSImg.16a4316c914f1c5cc07f.png",
     "static/media/SQLImg.png": "/hd_portfolio/static/media/SQLImg.0d7c18a75b27908a9690.png",
@@ -17,7 +18,6 @@
     "static/media/ExpressJSImg.png": "/hd_portfolio/static/media/ExpressJSImg.8b4637c702dd837141e1.png",
     "static/media/Weather_report_img.png": "/hd_portfolio/static/media/Weather_report_img.284022305112d1b6c27b.png",
     "static/media/PythonImg.png": "/hd_portfolio/static/media/PythonImg.46618134184aeb656c89.png",
-    "static/media/HKD96.pdf": "/hd_portfolio/static/media/HKD96.0cf5ffdf0ecd6a27bc09.pdf",
     "static/media/JsImg.png": "/hd_portfolio/static/media/JsImg.bc9d8335d9e1e987656e.png",
     "static/media/MOngoDBImg.png": "/hd_portfolio/static/media/MOngoDBImg.b6904528dca612496636.png",
     "static/media/CSSImg.png": "/hd_portfolio/static/media/CSSImg.c689d2efe174dd6d990c.png",
@@ -30,12 +30,12 @@
     "static/media/TextConverter.png": "/hd_portfolio/static/media/TextConverter.467f6310f260a1931a52.png",
     "static/media/gitImg.png": "/hd_portfolio/static/media/gitImg.ec135c5512cc0f28a3a0.png",
     "index.html": "/hd_portfolio/index.html",
-    "main.337e0e58.css.map": "/hd_portfolio/static/css/main.337e0e58.css.map",
-    "main.2c496ef3.js.map": "/hd_portfolio/static/js/main.2c496ef3.js.map",
+    "main.064a1dfe.css.map": "/hd_portfolio/static/css/main.064a1dfe.css.map",
+    "main.ebe60f9e.js.map": "/hd_portfolio/static/js/main.ebe60f9e.js.map",
     "453.f0d65751.chunk.js.map": "/hd_portfolio/static/js/453.f0d65751.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.337e0e58.css",
-    "static/js/main.2c496ef3.js"
+    "static/css/main.064a1dfe.css",
+    "static/js/main.ebe60f9e.js"
   ]
 }
